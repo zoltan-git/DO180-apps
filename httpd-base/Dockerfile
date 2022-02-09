@@ -15,5 +15,5 @@ ADD ./src/ /var/www/html/
 
 COPY index.html /var/www/html/
 
-CMD ["/usr/bin/httpd", "-D", "FOREGROUND"]
+CMD ["/usr/sbin/httpd", "-D", "FOREGROUND"]
 
